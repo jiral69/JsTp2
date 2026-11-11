@@ -1,0 +1,18 @@
+body { max-width: 600px; margin: 2rem auto; padding: 0 1rem;
+       font-family: system-ui, sans-serif; color: #222; }
+h1 { color: #14213d; }
+form { display: grid; gap: .4rem; padding: 1rem;
+       border: 1px solid #ddd; border-radius: 8px; }
+input, button { font: inherit; padding: .5rem; }
+button { background: #2e7d32; color: #fff; border: none;
+         border-radius: 6px; cursor: pointer; }
+#erreur { color: #c62828; margin: 0; min-height: 1.2em; }
+.invalide { border: 2px solid #c62828; }
+#liste { list-style: none; padding: 0; }
+#liste li { display: flex; justify-content: space-between; align-items: center;
+            margin: .4rem 0; padding: .5rem .8rem; border-radius: 6px; }
+.reussi { background: #e8f5e9; border-left: 5px solid #2e7d32; }
+.echoue { background: #ffebee; border-left: 5px solid #c62828; }
+.supprimer { background: none; color: #555; padding: .2rem .5rem; }
+#resultats { padding: 1rem; background: #f4f4f4; border-radius: 8px; }
+#resultats span { font-weight: bold; }

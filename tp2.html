@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mes notes du semestre</title>
+  <link rel="stylesheet" href="css/tp2.css">
+  <script src="js/tp2.js" defer></script>
+</head>
+<body>
+  <h1>Mes notes du semestre</h1>
+
+  <form id="formulaire">
+    <label for="matiere">Matière</label>
+    <input type="text" id="matiere">
+
+    <label for="note">Note (/20)</label>
+    <input type="text" id="note">
+
+    <label for="coef">Coefficient</label>
+    <input type="number" id="coef" value="1" min="1">
+
+    <button type="submit" >Ajouter</button>
+    <p id="erreur"></p>
+  </form>
+
+  <ul id="liste"></ul>
+
+  <section id="resultats">
+    <p>Nombre de matières : <span id="nombre">0</span></p>
+    <p>Moyenne : <span id="moyenne">-</span></p>
+    <p>Mention : <span id="mention">-</span></p>
+  </section>
+</body>
+</html>
